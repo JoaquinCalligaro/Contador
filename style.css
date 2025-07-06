@@ -160,9 +160,9 @@ body {
 }
 
 .modo-oscuro .botones button {
-  background: linear-gradient(#000000, #00103e);
+  background: linear-gradient(#000002, #00103e);
   color: white;
-  border: 12px solid #080094c3;
+  border: 12px solid #0d00fc;
 }
 
 .modo-oscuro .botones button:hover {
