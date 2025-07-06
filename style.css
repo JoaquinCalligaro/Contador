@@ -1,0 +1,33 @@
+/* centrar todo el body */
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(#089de2, #06b9ad, #05b0ca);
+}
+
+/* propiedades contador */
+.contador h1 {
+  font-size: 3rem;
+  margin: 40px;
+  color: #fff;
+}
+
+/* propiedades de los botones */
+
+.botones button {
+  padding: 5px;
+  margin: 10px;
+  border-radius: 20px;
+  /* border-color: rgba(18, 179, 191, 0.667); */
+  font-size: 0.7rem;
+  background: linear-gradient(#ffffff, #0788f18d);
+  border: 2px solid #2086c5eb;
+}
+
+.botones button:hover {
+  background-color: rgb(0, 165, 254);
+  box-shadow: 2px 2px 5px rgba(1, 68, 109, 0.922);
+}
