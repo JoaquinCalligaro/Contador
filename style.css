@@ -50,6 +50,25 @@ body {
   background-color: #000000;
 }
 
+/* 📱 Teléfonos grandes (ej: S22 Ultra, iPhone 13 Pro Max) */
+@media (min-width: 481px) and (max-width: 767px) {
+  .contador h1 {
+    font-size: 2.2rem;
+  }
+
+  .botones {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: center;
+  }
+
+  .botones button {
+    font-size: 1.1rem;
+    padding: 10px 20px;
+  }
+}
+
 /* Estilos solo para pantallas pequeñas (celulares) */
 
 @media (max-width: 480px) {
