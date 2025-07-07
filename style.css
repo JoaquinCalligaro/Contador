@@ -193,7 +193,7 @@ body {
   }
 }
 
-/* 📱 Teléfonos grandes */
+/*  Pantallas Grandes */
 @media (min-width: 481px) and (max-width: 1279px) {
   .contador h1 {
     font-size: 8rem;
@@ -218,7 +218,7 @@ body {
   }
 }
 
-/* Estilos solo para pantallas pequeñas (celulares) */
+/* Estilos solo para pantallas pequeñas */
 @media (max-width: 480px) {
   .contador h1 {
     font-size: 2rem;
