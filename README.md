@@ -2,7 +2,7 @@
 
 Un contador simple hecho con **HTML**, **CSS** y **JavaScript**.  
 Permite incrementar, decrementar y resetear el número mostrado.  
-Incluye modo oscuro para cambiar el tema visual. 🌙🌞
+Incluye modo oscuro y claro para cambiar el tema visual. 🌙🌞
 
 ---
 
