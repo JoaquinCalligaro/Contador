@@ -22,7 +22,7 @@ function alternarModo() {
   document.body.classList.toggle('modo-oscuro');
 
   if (document.body.classList.contains('modo-oscuro')) {
-    modoBlanco.textContent = 'Modo Blanco';
+    modoBlanco.textContent = 'Modo Claro ';
   } else {
     modoBlanco.textContent = 'Modo Oscuro';
   }

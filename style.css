@@ -160,29 +160,31 @@ body {
 }
 
 .modo-oscuro .botones button {
-  background: linear-gradient(#000002, #00103e);
+  background: linear-gradient(#000000, #0040ff);
   color: white;
-  border: 12px solid #0d00fc;
+  border: 5px solid #0d00fc;
 }
 
 .modo-oscuro .botones button:hover {
-  background-color: #000000;
+  background-color: #004ad2;
 }
 
 @media (min-width: 1280px) {
   .contador h1 {
-    font-size: 12rem;
+    font-size: 5rem;
     padding: 100px;
     color: #000;
   }
   /* propiedades de los botones */
-
+  .botones {
+    display: flex;
+    gap: 30px;
+  }
   .botones button {
-    padding: 50px 250px;
-    align-items: center;
-    margin: 50px 130px;
+    padding: 20px;
+    margin: 50px 10px;
     border-radius: 20px;
-    font-size: 6rem;
+    font-size: 2rem;
     background: linear-gradient(#c8e2f7, #0788f18d);
     border: 6px solid #2086c5eb;
   }
